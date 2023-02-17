@@ -1,5 +1,5 @@
 /*
- * File: 4-print_alphabet.c
+ * File: 4-print_alphabt.c
  * Auth: Jumana Emad
  */
 
@@ -9,7 +9,7 @@
 #include <string.h>
 
 /**
- * main - Prints the alphabet except q and e 
+ * main - Prints the alphabet except q and e
  *
  * Return: Always 0.
 */
@@ -21,7 +21,7 @@ int main(void)
 	for (i = 97; i < n; i++)
 	{
 		if (i == 101 || i == 113)
-			continue;	
+			continue;
 		putchar(i);
 	}
 	putchar('\n');
