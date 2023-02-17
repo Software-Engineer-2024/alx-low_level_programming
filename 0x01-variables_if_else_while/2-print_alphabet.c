@@ -17,10 +17,11 @@ int main(void)
 {
 	int n = 123;
 	int i;
-	for (i = 97; i < n; i++)
-    		putchar(i);
 
-  	putchar('\n');
+	for (i = 97; i < n; i++)
+		putchar(i);
+
+	putchar('\n');
 
 	return (0);
 }
