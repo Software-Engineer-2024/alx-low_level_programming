@@ -7,7 +7,7 @@
  * if it is neither then it is defenitley a zero
  */
 /**
- *Check if a number is greater than 0
+ * main: Check if a number is ositive or negative or zero
  * @n: The number to be checked
  *
  * Return: 0 if the file is succesfull.
