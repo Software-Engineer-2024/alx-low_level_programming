@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* checking if n is negative then checking if it is positive if it is neither then it is defenitley a zero */
+/**
+ * checking if n is negative
+ * checking if it is positive 
+ * if it is neither then it is defenitley a zero
+ */
 int main(void)
 {
 	int n;
