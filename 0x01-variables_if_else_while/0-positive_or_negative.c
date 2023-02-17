@@ -1,17 +1,16 @@
+/*
+ * File: 0-positive_or_negative.c
+ * Auth: Jumana Emad
+ */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * checking if n is negative
- * checking if it is positive
- * if it is neither then it is defenitley a zero
- */
-/**
- * main: Check if a number is ositive or negative or zero
- * @n: The number to be checked
+ * main - states whether a number is positive, negative, or zero.
  *
- * Return: 0 if the file is succesfull.
- */
+ * Return: Always 0.
+*/
 int main(void)
 {
 int n;
