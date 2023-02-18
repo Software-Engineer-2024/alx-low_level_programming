@@ -18,7 +18,7 @@ int main(void)
 	int i;
 	int z;
 
-	for (z=48; z<58; z++)
+	for (z = 48; z < 58; z++)
 		putchar(z);
 
 	for (i = 97; i < 103; i++)
