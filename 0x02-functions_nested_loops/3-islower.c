@@ -7,7 +7,7 @@
 
 /**
  * _islower - checks if the int given is lower case;
- * @c - input from user
+ * @c : input from user
  * Return: 1 if the integer is lower case , 0 otherwise
  */
 
