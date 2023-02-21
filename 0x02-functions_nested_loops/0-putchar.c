@@ -3,18 +3,25 @@
  * Auth: Jumana Emad
  */
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
  * main - Prints _putchar
  *
- * Return: Always 0.
-*/
+ * Return: Always 0
+ */
+
 int main(void)
 {
-	printf("_putchar\n");
+	/* printf("_putchar\n"); */
+	
+	char str[] = "_putchar";
+        int i ;
+
+        for (i = 0 ; i < 9 ; i++ )
+                _putchar(str[i]);
+
+        _putchar('\n');
 
 	return (0);
 }
