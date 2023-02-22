@@ -12,13 +12,15 @@
  * Return: Always 0
  */
 
-void print_alphabet(void)
+int print_last_digit(int n)
 {
-	int n = 123;
-	int i;
+	int last_digit;
 
-	for (i = 97; i < n; i++)
-		_putchar(i);
-
-	_putchar('\n');
+	last_digit = n % 10;
+	if (last_digit < 0)
+	{
+		last_digit *= -1;
+	}
+	_putchar('0' + last_digit);
+	return (last_digit);
 }
