@@ -20,15 +20,14 @@ void more_numbers(void)
 			if (i < 10)
 			{
 				c = '0' + i;
-				_putchar(c);
 			}
 			else
 			{
 				_putchar(49);
 				rem = i % 10;
 				c = '0' + rem;
-				_putchar(c);
 			}
+			_putchar(c);
 		}
 		_putchar('\n');
 
