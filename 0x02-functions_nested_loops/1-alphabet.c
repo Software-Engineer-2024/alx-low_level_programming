@@ -11,16 +11,14 @@
  *
  * Return: Always 0
  */
-int main()
-{	
+void print_alphabet(void)
+{
 	int n = 123;
 	int i;
-	int j;
 
 	for (i = 97; i < n; i++)
 		_putchar(i);
 
 	_putchar('\n');
-	
-	return (0);
+
 }
