@@ -2,12 +2,14 @@
 
 /**
  * print_triangle - draw triangle with spaces at the start.
+ *
  *@size: variable
- * Return: Always 0.
  */
+
 void print_triangle(int size)
 {
 	int count, i;
+
 	count = 0;
 	if (size > 0)
 	{
