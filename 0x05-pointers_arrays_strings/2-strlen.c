@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _strlen - get length of string
  * @s: start of a string
  * Return: length of string.
  */
@@ -15,7 +15,7 @@ int _strlen(char *s)
 	{
 		len ++;
 		s++;
-	
+
 	}	
 	return (len);
 }
