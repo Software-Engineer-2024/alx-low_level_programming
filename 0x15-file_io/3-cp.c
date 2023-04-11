@@ -3,11 +3,9 @@
 
 /**
  * file_error - checks if files can be opened or not.
- * 
  * @file_from: file to copy from.
  * @file_to: file to copy to.
  * @argv: arguments vector.
- * 
  * Return: void.
  */
 void file_error(int file_from, int file_to, char *argv[])
